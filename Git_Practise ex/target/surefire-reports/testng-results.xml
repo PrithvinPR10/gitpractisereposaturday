@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-07T17:56:01 IST" name="Suite" finished-at="2025-11-07T17:56:01 IST" duration-ms="75">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="OrgTest.modifyOrgTest()[pri:0, instance:jenkin.OrgTest@3ba9ad43]" name="modifyOrgTest" class="jenkin.OrgTest"/>
+        <method signature="ContactTest.createOrgTest()[pri:0, instance:maven.ContactTest@63021689]" name="createOrgTest" class="maven.ContactTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2025-11-07T17:56:01 IST" name="Test" finished-at="2025-11-07T17:56:01 IST" duration-ms="75">
+      <class name="maven.ContactTest">
+        <test-method signature="createOrgTest()[pri:0, instance:maven.ContactTest@63021689]" started-at="2025-11-07T17:56:01 IST" name="createOrgTest" finished-at="2025-11-07T17:56:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+      </class> <!-- maven.ContactTest -->
+      <class name="jenkin.OrgTest">
+        <test-method signature="modifyOrgTest()[pri:0, instance:jenkin.OrgTest@3ba9ad43]" started-at="2025-11-07T17:56:01 IST" name="modifyOrgTest" finished-at="2025-11-07T17:56:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- jenkin.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
